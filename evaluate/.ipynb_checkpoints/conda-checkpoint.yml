@@ -9,5 +9,5 @@ dependencies:
   - matplotlib
   - plotly
   - pillow
-  - mlflow
+  - mlflow>=1.21.0
   - wandb

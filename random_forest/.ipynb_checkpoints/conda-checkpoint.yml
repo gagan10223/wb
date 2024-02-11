@@ -5,11 +5,11 @@ channels:
 dependencies:
   - pandas
   - pip
-  - scikit-learn
   - matplotlib
   - plotly
   - pillow
-  - mlflow
+  - mlflow>=1.21.0
   - wandb
   - pip:
       - omegaconf
+      - scikit-learn>=0.24.0
